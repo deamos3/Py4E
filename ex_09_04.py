@@ -16,7 +16,6 @@ for line in handle:
     # here we look at the email address words[1], and count how many times
     # it has sent an email
     counts[words[1]] = counts.get(words[1], 0) + 1
-# print(counts)
 
 frequent_email = None
 frequency = None
